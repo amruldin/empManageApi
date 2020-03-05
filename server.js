@@ -16,6 +16,7 @@ mongoose.connect(config.db,{userNewUrlParser:true}).then(
 , err => {console.log('Can not connect' + err)}
 );
 
+let test = "This is another line of code";
 console.log("hi");
 
 app.use(bodyP.json());
